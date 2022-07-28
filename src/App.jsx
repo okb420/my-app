@@ -14,6 +14,7 @@ function App() {
      */
 
     // physics world
+    
     const world = new CANNON.World({gravity: new CANNON.Vec3(0,-9.82, 0)});
 
     // box body
